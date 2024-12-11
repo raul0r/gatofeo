@@ -1,46 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gatofeo Agency</title>
-  <link rel="stylesheet" href="global.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Digital services agency providing top-notch solutions">
+    <meta name="keywords" content="Digital services, Web design, Consulting">
+    <meta name="author" content="gatofeo.net">
+    <title>Gatofeo Digital Agency</title>
+    <link rel="stylesheet" href="/global.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  <!-- Header -->
-  <header>
-    <div class="container">
-      <nav>
-        <div class="logo">Gatofeo Agency</div>
-        <ul class="nav-links">
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="#" class="logo">Gatofeo</a>
+                <ul class="nav-links">
+                    <li><a href="/services.html">Services</a></li>
+                    <li><a href="/about.html">About Us</a></li>
+                    <li><a href="/cases.html">Case Studies</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="container">
+                <h1>Your Partner in Digital Innovation</h1>
+                <p>Empowering businesses with cutting-edge digital solutions tailored to your needs.</p>
+                <a href="#services" class="cta">Explore Our Services</a>
+            </div>
+        </div>
+    </header>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <h1>Welcome to Gatofeo Agency</h1>
-    <p>Empowering businesses through innovative digital solutions that drive growth, efficiency, and competitive advantage.</p>
-    <a href="services.html" class="cta">Explore Our Services</a>
-  </section>
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-items">
+                <div class="service-item">
+                    <h3>Web Design</h3>
+                    <p>Beautiful, user-friendly websites designed to captivate your audience.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Consulting</h3>
+                    <p>Expert guidance to navigate the digital landscape with confidence.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Marketing</h3>
+                    <p>Targeted marketing strategies that drive results and maximize ROI.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <p>&copy; 2024 Gatofeo Agency. All rights reserved.</p>
-      <div class="social-links">
-        <a href="https://twitter.com">Twitter</a>
-        <a href="https://linkedin.com">LinkedIn</a>
-        <a href="https://facebook.com">Facebook</a>
-      </div>
-    </div>
-  </footer>
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Gatofeo is a digital services agency committed to delivering exceptional results. Our team combines creativity, technical expertise, and strategic thinking to empower your business.</p>
+        </div>
+    </section>
+
+    <section id="cases" class="cases">
+        <div class="container">
+            <h2>Case Studies</h2>
+            <div class="case-items">
+                <div class="case-item">
+                    <h3>Client Success Story 1</h3>
+                    <p>Learn how we helped Company X achieve their digital transformation goals.</p>
+                </div>
+                <div class="case-item">
+                    <h3>Client Success Story 2</h3>
+                    <p>Discover how we optimized Company Y's online presence for growth.</p>
+                </div>
+                <div class="case-item">
+                    <h3>Client Success Story 3</h3>
+                    <p>Read about our innovative solutions for Company Z.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="#" method="post" class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Gatofeo. All rights reserved.</p>
+            <ul class="social-links">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">LinkedIn</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
-
 </html>
